@@ -1,22 +1,37 @@
 {
-  "name": "vue-split-table",
-  "description": "Vue component with clock",
-  "version": "1.0.1",
-  "author": "lanzhsh",
-  "keywords": [
-    "vue",
-    "component",
-    "split-table",
-    "merge-table"
-  ],
-  "main": "dist/vue-split-table.min.js",
-  "scripts": {
-    "start": "npm run dev",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base=docs",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  "_from": "vue-split-table@^1.0.1",
+  "_id": "vue-split-table@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-xLOup9q4USV4uSma00rtLxCYat7RLJCn3wr9C1412tp7ZwAzv13F7IgBYHkcUKNoE3Rl0slodw1MbsvgOlUN7g==",
+  "_location": "/vue-split-table",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-split-table@^1.0.1",
+    "name": "vue-split-table",
+    "escapedName": "vue-split-table",
+    "rawSpec": "^1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.1"
   },
-  "license": "MIT",
-  "homepage": "https://bestvist.github.io/vue-split-table/",
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-split-table/-/vue-split-table-1.0.1.tgz",
+  "_shasum": "bfc5c042545769591eaa5230fd05479db69092a9",
+  "_spec": "vue-split-table@^1.0.1",
+  "_where": "/home/jxshui/workspace/codex_fe",
+  "author": {
+    "name": "lanzhsh"
+  },
+  "bugs": {
+    "url": "https://github.com/lanzhsh/vue-split-table/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Vue component with clock",
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-eslint": "7.1.1",
@@ -40,15 +55,31 @@
     "scss-loader": "0.0.1",
     "style-loader": "^0.23.1",
     "vue-loader": "^11.1.4",
-    "vue-template-compiler": "^2.2.1",
+    "vue-template-compiler": "^2.5.13",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
   },
+  "homepage": "https://bestvist.github.io/vue-split-table/",
+  "keywords": [
+    "vue",
+    "component",
+    "split-table",
+    "merge-table"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-split-table.min.js",
+  "name": "vue-split-table",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lanzhsh/vue-split-table.git"
   },
-  "bugs": {
-    "url": "https://github.com/lanzhsh/vue-split-table/issues"
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --content-base=docs",
+    "start": "npm run dev"
+  },
+  "version": "1.0.1",
+  "dependencies": {
+    "vue": "^2.5.10"
   }
 }
