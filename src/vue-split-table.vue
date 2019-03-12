@@ -165,23 +165,23 @@ methods:{
 
 th{
   padding:12px 5px;
-  line-height: 23px;
+  line-height: 40px;
   background:#F5F7FA;
-  color: #909399;
-  font-weight: 500;
+  color: #515a6e;
+  margin: auto;
+  font-weight: bold;
+
 }
 
 tr{
   color: #606266;
-}
-
-tr:hover{
-  cursor:pointer;
-  background:#F5F7FA;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
 }
 
 td,th{
-  text-align:left;
+  text-align: center;
   border: 1px solid #dfe6ec;
 }
 
@@ -191,7 +191,7 @@ td,th{
 }
 
 .split-samll-table tr{
-  line-height: 23px;
+  line-height: 40px;
   border-bottom: 1px solid #dfe6ec;
 }
 
